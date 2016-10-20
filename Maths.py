@@ -6,16 +6,16 @@ while more== "Yes":
    
     Operator = input("what do you want to do? ")
 
-    if Operator == "+":
+    if Operator == "+": #for addition
         result = (x + y)
     
-    elif Operator == "-":
+    elif Operator == "-": #for subtraction
         result = (x - y)
     
-    elif Operator == "/":
+    elif Operator == "/": #for division
          result = (x / y)
      
-    elif Operator == "*":
+    elif Operator == "*": #for multiplication
          result = (x * y)
 
     print (result)
